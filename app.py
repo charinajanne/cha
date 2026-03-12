@@ -9,11 +9,12 @@ def home():
 @app.route('/student')
 def get_student():
     return jsonify({
-        "name": "Your Name",
+        "name": "Cha",
         "grade": 10,
-        "section": "Zechariah"
+        "section": "Arduino"
     })
 
 if __name__ == '__main__':
     # This block allows you to run the app directly using 'python app.py'
     app.run(debug=True)
+
